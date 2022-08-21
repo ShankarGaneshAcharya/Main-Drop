@@ -1,0 +1,45 @@
+    /* body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #0d6efd;
+      color: #fff;
+    } */
+
+    .navbar-toggler {
+        border: none;
+        padding: 0;
+        outline: none;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .dropdown-item {
+        position: relative;
+    }
+
+    .dropend .dropdown-toggle:after {
+        position: absolute;
+        right: 13px;
+        top: 10px;
+    }
+
+    .dropdown-menu {
+        animation: drop 0.5s ease 1;
+        min-width: 13rem;
+    }
+
+    @keyframes drop {
+        0% {
+            transform: translateY(25px);
+        }
+
+        100% {
+            transform: translateY(0px);
+        }
+    }
+
+    .first
+    {
+        text-align: justify;
+    }
